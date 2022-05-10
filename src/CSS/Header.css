@@ -1,0 +1,23 @@
+
+.nav Button{
+    background-color: white;
+    border: none;
+    margin-left: 3%;
+}
+.nav Button:hover{
+    background-color: #54BAB9;
+}
+
+.link{
+    text-decoration: none;
+    color:#1C658C;
+    font-weight:500;
+}
+
+.link:hover{
+    color:whitesmoke;
+}
+
+.nav Button >:Link{
+    color:black;
+}

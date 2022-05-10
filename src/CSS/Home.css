@@ -1,0 +1,69 @@
+
+
+.header{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 1%;
+  padding-left: 8%;
+  
+}
+
+.header img{
+    width:6%;
+    height:50%;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+}
+
+.header div span{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.firstSection{
+    background-color: #FBF8F1;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 10%;
+}
+
+/* .main img{
+    width:30%;
+} */
+
+.firstSection div{
+    padding:15%;
+    padding-left:35%;
+}
+
+.firstSection div button{
+    height:20%;
+    width:45%;
+    background-color: #1C658C;
+    color:whitesmoke
+}
+
+.firstSection div button:hover{
+    background-color: #E9DAC1;
+    color: #54BAB9;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/* Crescent image */
+.firstSection .crescent{
+    margin:30%;
+    width:20%;
+} 
+
+.secondSection{
+    background-color: #FBF8F1;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding-left: 10%;
+}
+
+.secondSection div{
+    padding:5%;
+}
